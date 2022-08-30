@@ -23,7 +23,7 @@ public class HomePageTest {
         webdriver.get("https://www.saucedemo.com/inventory.html");
         webdriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(500));
         //Login to Home
-        logIn(webdriver);
+        logIn(webdriver) ;
     }
     //Immediately log in. Tested in previous class
     private static void logIn(WebDriver webdriver) {
