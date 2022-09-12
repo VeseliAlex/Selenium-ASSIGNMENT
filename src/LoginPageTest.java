@@ -134,6 +134,6 @@ public class LoginPageTest {
 
     @AfterAll
     public static void after() {
-        webDriver.close(); //aa
+        webDriver.close(); 
     }
 }
