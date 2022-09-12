@@ -96,6 +96,6 @@ public class HomePageTest {
 
    @AfterAll
     public static void Close() {
-        webdriver.close(); //aleksa
+        webdriver.close(); 
    }
 }
