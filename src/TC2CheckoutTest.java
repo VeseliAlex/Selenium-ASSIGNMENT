@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class TC2CheckoutTest {
     public static WebDriver weBDdriver;
-
+//aleksa
     @BeforeAll
     public static void init() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\aveselinovic\\Downloads\\chromedriver.exe");
